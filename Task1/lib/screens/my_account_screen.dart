@@ -31,13 +31,13 @@ class MyAccountScreen extends StatelessWidget {
             children: [
               SizedBox(height: 30),
               Container(
-                width: 120, // Width of the Container
-                height: 120, // Height of the Container
+                width: 120, 
+                height: 120, 
                 decoration: BoxDecoration(
                   shape: BoxShape.circle,
                   border: Border.all(
-                    color: Colors.black12, // Border color
-                    width: 2, // Border width
+                    color: Colors.black12, 
+                    width: 2, 
                   ),
                 ),
                 child: CircleAvatar(

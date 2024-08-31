@@ -8,7 +8,7 @@ class Appoints extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    // Determine if the current patient should have a special icon
+   
     bool isCorrectIcon = patient.name == 'Dumitru Simona';
     bool isWrongIcon = patient.name == 'Alexandru Sandu';
 
@@ -64,13 +64,13 @@ class Appoints extends StatelessWidget {
             if (isCorrectIcon)
               Icon(
                 Icons.check,
-                color: Colors.blue, // Adjust the color to your preference
+                color: Colors.blue, 
                 size: 40,
               )
             else if (isWrongIcon)
               Icon(
                 Icons.cancel_outlined,
-                color: Colors.red, // Adjust the color to your preference
+                color: Colors.red, 
                 size: 40,
               ),
           ],

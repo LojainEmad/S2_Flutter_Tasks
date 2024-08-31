@@ -1,11 +1,11 @@
 class Patient{
   String name;
   String time;
- // IconData? iconType;
+ 
 
   Patient({required this.name,
             required this.time,
-            //this.iconType
+            
             });
 }
 
@@ -29,12 +29,12 @@ List<Patient> theAppoints=[
   Patient(
       name:'Alexandru Sandu',
       time:'16:40'
-      //iconType: Icons.cancel,
+     
   ),
   Patient(
       name:'Dumitru Simona',
       time:'08:00'
-      //iconType: Icons.check_circle,
+      
   ),
 
 ];
